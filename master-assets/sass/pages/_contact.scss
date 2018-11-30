@@ -1,0 +1,39 @@
+@media only screen and (min-width: 320px) {
+  #accordionExample.accordion {
+    .card {
+      padding: 1rem;
+
+      #collapseOne.collapse.show,
+      #collapseTwo.collapse.show,
+      #collapseThree.collapse.show {
+        .card-body {
+          border-left: 1px solid $maroon;
+          border-right: 1px solid $maroon;
+          border-bottom: 1px solid $maroon;
+        }
+      }
+      .card-header {
+        background-color: $gold;
+        border: 1px solid $maroon;
+
+        h5{
+          button {
+            h1 {
+              color: $maroon;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  #accordionExample.accordion {
+    .card {
+      width: 70%;
+      margin: auto;
+      border: none;
+    }
+  }
+}

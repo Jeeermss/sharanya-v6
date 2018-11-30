@@ -1,0 +1,145 @@
+@media only screen and (min-width: 320px) {
+       .animated {
+        /*CSS3 animation properties*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+
+        /*CSS3 transition properties*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+
+        /*CSS3 transform properties*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+}
+  #biography {
+  
+  }
+
+@media only screen and (min-width: 768px) {
+
+
+
+
+    #biography {
+      .only_show_S {
+        display: none;
+
+        img {
+          width: 100%;
+        }
+
+      }
+
+      .only_show_L {
+        display: block;
+        margin-left: auto;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .only_show_XL {
+        display: none;
+        margin-left: auto;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+  #biography {
+    .only_show_S {
+      display: none;
+
+      img {
+        width: 100%;
+      }
+
+    }
+
+    .only_show_L {
+      display: none;
+      margin-left: auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .only_show_XL {
+      display: block;
+      margin-left: auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+    #about-sharanya {
+        .show_only--XL {
+            left: 1rem;
+            top: 7rem;
+            
+            .about_sharanya_text_XL {
+                position: absolute;
+                z-index: 999;
+                top: 18rem;
+                padding-left: 5rem;
+            }
+        }
+        
+        .alternative_content--about {
+            .alternative_content-p {
+                left: 5rem;
+                top: 4rem;
+            }
+        }
+    }
+    
+    #biography {
+        .only_show_XL {
+            position: absolute;
+            padding-top: 8rem;
+            
+        .biography_text_XL {
+            position: absolute;
+            width: 17rem;
+            top: 3rem;
+            left: 10rem;
+            }
+        }
+        .content-main {
+            padding-top: 13rem; 
+            
+            .sub-header.light {
+                padding-top: 1rem;
+            }
+        }    
+    
+    }
+}

@@ -1,0 +1,501 @@
+@media only screen and (min-width: 320px) {
+  #about-sharanya {
+    position: relative;
+
+    .decor-left {
+      .decor {
+        position: absolute;
+        top: 4rem;
+      }
+    }
+
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 21rem;
+        bottom: -5rem;
+      }
+    }
+  }
+
+  #events {
+    position: relative;
+
+    .enroll_button {
+      cursor: pointer;
+
+      img {
+        position: absolute;
+        left: 50%;
+        bottom: 82%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+    }
+
+    .events {
+      .events-container {
+
+        .events_leaf_image {
+          width: 90%;
+          position: absolute;
+          top: 2rem;
+          left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 24.5rem;
+        bottom: -5rem;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 83%;
+      }
+    }
+
+    .events-container {
+      .events_column {
+        .events_leaf_image {
+          width: 60%;
+          left: 8rem;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 375px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 26rem;
+        bottom: -4rem;
+      }
+    }
+  }
+
+  #events {
+
+    .events-container {
+      .events-column {
+        .events_leaf_image {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 30rem;
+        bottom: -4.2rem;
+      }
+    }
+  }
+
+  #events {
+    .events-container {
+      .events_column {
+        .events_leaf_image {
+          width: 60%;
+          left: 13rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 36.5rem;
+        bottom: -5rem;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 84%;
+      }
+    }
+    .events-container {
+      .events_column {
+        .events_leaf_image {
+          width: 47%;
+          left: 22rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 44.5rem;
+        bottom: -5rem;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 85%;
+      }
+    }
+    .events-container {
+      .events_column {
+        .events_leaf_image {
+          width: 38%;
+          left: 31rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 52.5rem;
+        bottom: -5rem;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 86%;
+      }
+    }
+
+    .events-container {
+      .events_column {
+        .events_leaf_image {
+          width: 30%;
+          left: 40rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        position: absolute;
+        top: -1rem;
+        left: 2rem;
+        width: 30%;
+      }
+    }
+
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 48.5rem;
+        bottom: -11rem;
+        width: 30%;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 87%;
+      }
+    }
+
+    .events-container {
+      .events_column {
+        .events_leaf_image {
+          width: 26%;
+          left: 50rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        position: absolute;
+        top: 0;
+        left: 5rem;
+        width: 20%;
+      }
+    }
+
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 72.5rem;
+        bottom: -2rem;
+        width: 20%;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 76%;
+      }
+    }
+
+    .events-container {
+      .events_column {
+        .events_leaf_image {
+          width: 40%;
+          left: 66%;
+          top: 26rem;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        left: 75%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 80rem;
+        bottom: -6rem;
+        width: 20%;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 74%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        position: absolute;
+        top: 0rem;
+        left: 5rem;
+        width: 18%;
+      }
+    }
+
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 76.5rem;
+        bottom: -1rem;
+        width: 18%;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 78%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #about-sharanya {
+    .decor-right {
+      .decor {
+        left: 83.3rem;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    #events {
+      .events-container {
+        .events_column {
+          .events_leaf_image {
+            width: 65%;
+          }
+        }
+      }
+    }
+  }
+
+
+
+@media only screen and (min-width: 1440px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        position: absolute;
+        top: 0rem;
+        left: 4rem;
+        width: 15%;
+      }
+    }
+
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 89.5rem;
+        bottom: -5rem;
+        width: 15%;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 81%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1535px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        top: -1rem;
+        left: 1rem;
+        width: 18%;
+      }
+    }
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 78.5rem;
+        bottom: -5rem;
+        width: 18%;
+      }
+    }
+  }
+
+#events {
+  .enroll_button {
+    img {
+      bottom: 82%;
+    }
+  }
+}
+
+}
+
+@media only screen and (min-width: 1600px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        position: absolute;
+        top: -3rem;
+        left: 0rem;
+      }
+    }
+
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 86.5rem;
+        bottom: -12rem;
+      }
+    }
+  }
+
+  #events {
+    .enroll_button {
+      img {
+        bottom: 65%;
+        width: 15%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        top: -5rem;
+        left: 0;
+      }
+    }
+    .decor-right {
+      .decor {
+        left: 94.5rem;
+        bottom: -20rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  #about-sharanya {
+    .decor-left {
+      .decor {
+        position: absolute;
+        top: 2rem;
+        left: 7rem;
+        width: 8%;
+      }
+    }
+
+    .decor-right {
+      .decor {
+        position: absolute;
+        left: 80.5rem;
+        bottom: 54rem;
+        width: 8%;
+      }
+    }
+  }
+}
+}

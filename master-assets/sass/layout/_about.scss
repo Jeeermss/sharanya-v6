@@ -1,0 +1,249 @@
+@media only screen and (min-width: 320px) {
+  #about-sharanya {
+    position: relative;
+
+    .show_only--S {
+      display: block;
+      position: relative;
+      top: 5rem;
+      z-index: 990;
+      text-align: center;
+      margin: auto;
+
+      img {
+        width: 100%;
+      }
+
+      .about_sharanya_text_S {
+        width: 41%;
+        position: absolute;
+        left: 37%;
+        top: 21%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .show_only--L {
+      display: none;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .show_only--XL {
+      display: none;
+      
+    
+      img {
+        width: 100%;
+      }
+    }
+    .alternative_content--about {
+      position: absolute;
+      top: 45%;
+      z-index: 991;
+
+      .alternative_content-p {
+        padding: 0 5.3rem;
+        text-align: left;
+        line-height: 1.6rem;
+      }
+    }
+
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  #about-sharanya {
+    .show_only--S {
+      .about_sharanya_text_S {
+        top: 19%;
+      }
+    }
+    .alternative_content--about {
+      top: 39%;
+
+      .alternative_content-p {
+        padding: 0 6.1rem;
+        line-height: 1.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  #about-sharanya {
+    .alternative_content--about {
+      top: 36%;
+      .alternative_content-p {
+        line-height: 2rem;
+        padding: 1rem 7rem 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #about-sharanya {
+
+      .show_only--S {
+        display: none;
+      }
+
+      .show_only--L {
+        display: block;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        padding-top: 15rem;
+
+        .about_sharanya_text_L {
+          width: 37%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          left: 39%;
+          top: 49%;
+
+        }
+      }
+
+      .show_only--XL {
+        display: none;
+      }
+
+
+
+      .alternative_content--about {
+        top: 52%;
+
+        .alternative_content-p {
+          padding: 1rem 15.4rem 0;
+        }
+      }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+  #about-sharanya {
+    .show_only--S {
+      display: none;
+    }
+
+    .show_only--L {
+      display: none;
+    }
+
+    .show_only--XL {
+      display: block;
+      position: relative;
+
+      img {
+        position: relative;
+        top: 7rem;
+        left: 3rem;
+        width: 97%;
+      }
+
+      .about_sharanya_text_XL {
+        width: 30%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 27%;
+        top: 31%;
+
+      }
+    }
+
+    .alternative_content--about {
+      top: 45%;
+
+      .alternative_content-p {
+        padding: 0 37rem 0 12rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #about-sharanya {
+    .show_only--XL {
+      .about_sharanya_text_XL {
+        width: 20%;
+        left: 26.5%;
+        top: 26%;
+      }
+    }
+    .alternative_content--about {
+      top: 29%;
+
+      .alternative_content-p {
+        line-height: 3rem;
+        padding: 0 40rem 0 20rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #about-sharanya { 
+    .show_only--XL { 
+      .about_sharanya_text_XL {
+        left: 22.5%;
+        top: 29%;
+      }
+    }
+    .alternative_content--about {
+      top: 29rem;
+
+      .alternative_content-p {
+        line-height: 3rem;
+        position: relative;
+        top: -2rem;
+        padding: 0 50rem 0 17rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1535px) {
+
+}
+
+@media only screen and (min-width: 1680px) {
+  #about-sharanya {
+    .show_only--XL {
+      .about_sharanya_text_XL {
+        left: 21.5%;
+        top: 26%;
+      }
+    }
+    .alternative_content--about {
+      top: 33rem;
+
+      .alternative_content-p {
+        padding: 0 62rem 0 44rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #about-sharanya {
+    .show_only--XL {
+      .about_sharanya_text_XL {
+        top: 23%;
+      }
+    }
+    .alternative_content--about {
+      .alternative_content-p {
+        top: 37rem;
+        padding: 0 70rem 0 47rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+
+}

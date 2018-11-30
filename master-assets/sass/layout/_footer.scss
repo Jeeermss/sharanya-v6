@@ -1,0 +1,157 @@
+@media only screen and (min-width: 320px) {
+
+  .footer {
+    background-color: $maroon;
+
+    &__links {
+
+      ul {
+        .footer__links-items {
+          padding: 1.5rem 0 0 2.3rem;
+          text-transform: uppercase;
+
+          a {
+            color: $white;
+            font-size: 1.3rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+          }
+        }
+
+        .footer__links-items:first-child {
+          padding-top: 4rem;
+        }
+
+        .footer__links-items:last-child {
+          padding-bottom: 4rem;
+        }
+      }
+    }
+
+    .social-links {
+
+      ul {
+        text-align: center;
+
+        .social-links-items {
+          display: inline-grid;
+
+          a {
+            img {
+              padding: 0 1rem 2rem 1rem;
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .footer {
+
+    &__links {
+
+      ul {
+        text-align: center;
+
+        .footer__links-items {
+          display: inline-grid;
+          text-align: left;
+
+          a {
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+          }
+        }
+
+        .footer__links-item:first-child {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .footer {
+    &__links {
+      ul {
+        .footer__links-items {
+          padding: 0 2.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .footer {
+    &__links {
+      ul {
+        .footer__links-items {
+          padding: 0 3.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .footer {
+    &__links {
+      ul {
+        .footer__links-items {
+          padding: 0 5.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1535px) {
+
+  .footer {
+    &__links {
+      ul {
+        .footer__links-items {
+          padding: 0 4.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .footer {
+    .social-links {
+      ul {
+        .social-links-items {
+          a {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 2100px) {
+
+  .footer {
+    &__links {
+      ul {
+        .footer__links-items {
+          padding: 0 4.9rem;
+
+        }
+      }
+    }
+  }
+}
