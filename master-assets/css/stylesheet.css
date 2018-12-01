@@ -69,26 +69,19 @@ li.guideline-numbers::before {
     border-left: 10px solid #dcae1d;
     border-right: 10px solid #dcae1d; } }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
   section {
-    border-left: 4rem solid #dcae1d;
-    border-right: 4rem solid #dcae1d; }
+    border-left: 3rem solid #dcae1d;
+    border-right: 3rem solid #dcae1d; }
   .header-main {
     width: 80%;
     margin-left: auto; }
     .header-main .header-text {
       padding-left: 0; }
   .content-main p {
-    width: 80%;
-    margin-left: auto;
-    padding-right: 10rem; } }
+    width: 80%; } }
 
-@media only screen and (min-width: 1600px) {
-  section {
-    border-left: 14px solid #dcae1d;
-    border-right: 14px solid #dcae1d; } }
-
-@media only screen and (min-width: 1800px) {
+@media screen and (min-width: 1200px) and (max-width: 2100px) {
   section {
     border-left: 5rem solid #dcae1d;
     border-right: 5rem solid #dcae1d; } }
@@ -125,16 +118,15 @@ li.guideline-numbers::before {
     font-size: 1.3rem; }
   li {
     font-size: 1.4rem;
-    line-height: 1.7rem;
-    padding: .5rem 1rem; }
+    padding: 1rem 1rem; }
   .alt_sub-header {
     font-size: 1.3rem; }
   .alt_content-header {
     font-size: 1.1rem; }
   .alt_content-p {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   .label_header-sub_content {
-    font-size: 1.3rem; } }
+    font-size: 1.4rem; } }
 
 @media only screen and (min-width: 375px) {
   .alt_content-header {
@@ -150,7 +142,7 @@ li.guideline-numbers::before {
   .sub-header {
     font-size: 1.6rem; }
   .content-header {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   .alt_content-header {
     font-size: 1.7rem; } }
 
@@ -158,9 +150,12 @@ li.guideline-numbers::before {
   .header-text {
     font-size: 1.8rem; }
   .sub-header {
-    font-size: 1.7rem; }
+    font-size: 1.6rem; }
   .content-header {
-    font-size: 1.6rem; } }
+    font-size: 1.6rem; }
+  li {
+    font-size: 1.6rem;
+    padding: 1rem 1rem; } }
 
 @media only screen and (min-width: 1024px) {
   .alt_content-header {
@@ -174,7 +169,7 @@ li.guideline-numbers::before {
   .sub-header {
     font-size: 2rem; }
   .content-header {
-    font-size: 1.8rem; }
+    font-size: 1.6rem; }
   .alt_sub-header {
     font-size: 2rem; }
   .alt_content-header {
@@ -193,9 +188,12 @@ li.guideline-numbers::before {
     color: #FFF;
     border: 1px solid #596f62;
     border-radius: 3px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: bolder;
     padding: .4rem 5rem;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px; }
   .all_buttons::before,
   .all_buttons::after,
   .all_buttons:active {
@@ -207,8 +205,7 @@ li.guideline-numbers::before {
     background-color: transparent;
     color: #596f62;
     text-decoration: none;
-    border: 2px solid #596f62;
-    font-weight: 500; }
+    border: 2px solid #596f62; }
   .enroll_button_color--mossgreen {
     padding-top: 3rem;
     text-align: center;
@@ -216,15 +213,27 @@ li.guideline-numbers::before {
     z-index: 999;
     cursor: pointer; } }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
   #class-materials .saturday__button {
     background-color: #596f62;
     color: #FFF;
     border-radius: 3px;
-    padding: 1.2rem 2.5rem;
+    padding: 1rem 6.5rem;
     display: block;
-    width: 20%;
-    margin: 2rem auto; } }
+    width: 100%;
+    margin: 2rem -4rem;
+    font-size: 1.4rem; } }
+
+@media screen and (min-width: 1201px) and (max-width: 2100px) {
+  #class-materials .saturday__button {
+    background-color: #596f62;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 1rem 6.5rem;
+    display: block;
+    width: 120%;
+    margin: 2rem auto;
+    font-size: 1.7rem; } }
 
 @media only screen and (min-width: 320px) {
   #about-sharanya {
@@ -1033,6 +1042,18 @@ li.guideline-numbers::before {
   .navigation .navcollapse .navbar-nav .nav-item .nav-link {
     padding: 1.2rem 7rem; } }
 
+.motive-section::before {
+  content: url("/master-assets/img/alternative/left-motive.png");
+  position: relative;
+  left: -110px;
+  top: 160px; }
+
+.motive-section::after {
+  content: url("/master-assets/img/alternative/right-motive.png");
+  position: relative;
+  top: -170px;
+  right: -80%; }
+
 @media only screen and (min-width: 768px) {
   #biography .only_show_S {
     display: none; }
@@ -1085,25 +1106,40 @@ li.guideline-numbers::before {
       width: 17rem;
       top: 3rem;
       left: 10rem; }
-  #biography .content-main {
-    padding-top: 13rem; }
-    #biography .content-main .sub-header.light {
-      padding-top: 1rem; } }
+  #biography .content-main .sub-header.light {
+    padding-top: 1rem; } }
 
-#class-materials .saturday__content-main {
-  display: flex;
-  flex-direction: column;
-  width: 305px;
-  text-align: center;
-  margin: auto;
-  text-align: center;
-  padding: 3rem 0; }
-  #class-materials .saturday__content-main a {
-    margin-bottom: 10px; }
+#class-materials {
+  padding-top: 8rem; }
+  #class-materials .saturday__content-main {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    text-align: center;
+    margin: auto;
+    padding: 3rem 0; }
+    #class-materials .saturday__content-main a {
+      margin-bottom: 20px; }
+  #class-materials .content-main {
+    margin-bottom: 5rem;
+    margin-top: 5rem; }
+
+#accordionExample.accordion {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+
+p.content-header.light.mb-1.mt-1 {
+  text-align: center; }
+
+.card-body {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
 
 @media only screen and (min-width: 320px) {
   #accordionExample.accordion .card {
-    padding: 1rem; }
+    padding: 0.5rem; }
     #accordionExample.accordion .card #collapseOne.collapse.show .card-body,
     #accordionExample.accordion .card #collapseTwo.collapse.show .card-body,
     #accordionExample.accordion .card #collapseThree.collapse.show .card-body {
@@ -1114,7 +1150,23 @@ li.guideline-numbers::before {
       background-color: #dcae1d;
       border: 1px solid #982649; }
       #accordionExample.accordion .card .card-header h5 button h1 {
-        color: #982649; } }
+        color: #982649; }
+  .all_buttons {
+    margin-right: -2rem; } }
+
+@media screen and (min-width: 447px) and (max-width: 1279px) {
+  #accordionExample.accordion {
+    padding-left: 5rem;
+    padding-right: 5rem; } }
+
+@media screen and (min-width: 387px) and (max-width: 446px) {
+  #accordionExample.accordion {
+    padding-left: 2rem;
+    padding-right: 2rem; } }
+
+@media screen and (min-width: 327px) and (max-width: 386px) {
+  .all_buttons {
+    margin-right: 0; } }
 
 @media only screen and (min-width: 1281px) {
   #accordionExample.accordion .card {
@@ -1151,136 +1203,6 @@ li.guideline-numbers::before {
 @media (max-width: 480px) {
   #gallery .gallery-grid img {
     width: 100%; } }
-
-@media only screen and (min-width: 320px) {
-  /*    #about-sharanya {
-        .show_only_text--XL {
-            display: none;
-        }
-    }
-  #dance-information {
-    position: relative;
-    padding-top: 6rem;
-
-    .show_only--S {
-      display: block;
-
-      img {
-        width: 100%;
-      }
-
-      .dance_info_text_S {
-        width: auto;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        left: 25.6%;
-        top: 17%;
-      }
-    }
-
-    .show_only--L {
-      display: none;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .show_only--XL {
-      display: none;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .dance_groups_show_only--S {
-      display: block;
-      text-align: center;
-      position: relative;
-
-      .adavu_text {
-        position: absolute;
-        z-index: 99;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 19.5%;
-      }
-
-      .intermediate_text {
-        position: absolute;
-        z-index: 99;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 49%;
-      }
-
-      .private_text {
-        position: absolute;
-        z-index: 99;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 79%;
-      }
-        
-        .adavu_groups_text--S {
-            position: absolute;
-            top: 30rem;
-            left: 6rem;
-        }
-        
-        .intermediate_groups_text--S {
-            position: absolute;
-            top: 66rem;
-            left: 6rem;
-        }
-        
-        .private_groups_text--S {
-            position: absolute;
-            top: 103rem;
-            left: 6rem;
-        }
-    }
-
-    .dance_groups_show_only--L {
-      display: none;
-      text-align: center;
-    }
-
-    .dance_groups_show_only--XL {
-      display: none;
-      text-align: center;
-    }
-
-    .alternative_content--dance__information {
-      .alternative_content--dance__information-p {
-        padding: 4.5rem 2rem 0 1.7rem;
-      }
-    }
-
-
-    .dance_infobox--text {
-      position: relative;
-
-      .alt_content--adavu_infobox {
-        position: absolute;
-        bottom: 73rem;
-        padding: 0 5.5rem 0 6rem;
-      }
-
-      .alt_content--intermediate_infobox {
-        position: absolute;
-        padding: 0 5.5rem 0 6rem;
-        bottom: 39rem;
-      }
-
-      .alt_content--private_infobox {
-        position: absolute;
-        padding: 0 5.5rem 0 6rem;
-        bottom: 3rem;
-      }
-    }
-  } */ }
 
 #personal-information {
   display: flex;
@@ -1340,236 +1262,75 @@ li.guideline-numbers::before {
         width: 100%; }
       #events .events-container .events_column .events_leaf_image {
         position: absolute;
-        left: 50%;
-        top: 45%;
+        left: 60%;
+        top: 60%;
         transform: translate(-50%, -50%);
-        width: 75%; }
+        width: 70%; }
       #events .events-container .events_column h4,
       #events .events-container .events_column p {
         margin: 0;
         padding-bottom: .5rem; }
 
-@media only screen and (min-width: 375px) {
-  #about-sharanya .show_only_text--XL {
-    display: none; }
-  #dance-information .show_only--S .dance_info_text_S {
-    top: 16%; }
-  .dance_groups_show_only--S .adavu_image {
-    width: 60%; }
-  .dance_groups_show_only--S .adavu_groups_text--S {
-    position: absolute;
-    top: 30rem;
-    left: 9rem; }
-  .dance_groups_show_only--S .intermediate_groups_text--S {
-    position: absolute;
-    top: 65rem;
-    left: 9rem; }
-  .dance_groups_show_only--S .private_groups_text--S {
-    position: absolute;
-    top: 102rem;
-    left: 9rem; } }
+/* #events {
+    .events-container {
+        .events_column {
+            .events_leaf_image {
+                left: 70%;
+                width: 55%;
+            }
+        }
+    }
+} */
+#dance-information .show_only--S {
+  display: none; }
 
-#events .events-container .events_column .events_leaf_image {
-  left: 70%;
-  width: 55%; }
+#dance-information .alternative_content--dance__information .alternative_content--dance__information-p {
+  padding: 0.5rem 2rem 0 4.2rem; }
 
-@media only screen and (min-width: 411px) {
-  #dance-information .dance_groups_show_only--S .adavu_image {
-    width: 60%; }
-  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
-    bottom: 80rem;
-    padding: 0 10rem; }
-  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
-    padding: 0 10rem;
-    bottom: 42rem; }
-  #dance-information .dance_infobox--text .alt_content--private_infobox {
-    padding: 0 10rem; }
-  #events .events-container .events_column .events_leaf_image {
-    left: 60rem;
-    width: auto; } }
+#dance-information .dance_groups_show_only--S {
+  display: none; }
 
-@media only screen and (max-width: 768px) {
-  #events .events-container .events_column:nth-of-type(2) {
-    top: -1rem; }
-  .events_leaf_image {
-    width: auto;
-    left: 60rem; } }
-
-@media only screen and (min-width: 768px) {
-  #dance-information .show_only--S {
-    display: none; }
-  #dance-information .alternative_content--dance__information .alternative_content--dance__information-p {
-    padding: 0.5rem 2rem 0 4.2rem; }
-  #dance-information .dance_groups_show_only--S {
-    display: none; }
-  #dance-information .dance_groups_show_only--L {
-    display: block;
-    text-align: center;
-    position: relative; }
-    #dance-information .dance_groups_show_only--L .adavu_text {
-      position: absolute;
-      z-index: 99;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      top: 29rem; }
-    #dance-information .dance_groups_show_only--L .intermediate_text {
-      position: absolute;
-      z-index: 99;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      top: 52rem; }
-    #dance-information .dance_groups_show_only--L .private_text {
-      position: absolute;
-      z-index: 99;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      top: 75rem; }
-  #dance-information .dance_groups_show_only--XL {
-    display: none; }
-  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
-    bottom: 46rem;
-    padding: 0 14rem; }
-  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
-    padding: 0 14rem;
-    bottom: 26rem; }
-  #dance-information .dance_infobox--text .alt_content--private_infobox {
-    padding: 0 14rem;
-    bottom: 2rem; }
-  #contact-info .contact__info-wrapper .contact__info-item {
-    display: inline-grid;
-    padding: 2rem; } }
-
-@media only screen and (min-width: 1024px) {
-  #dance-information .show_only--S {
-    display: none; }
-  #dance-information .show_only--L {
-    display: none; }
-  #dance-information .dance_groups_show_only--S {
-    display: none; }
-  #dance-information .dance_groups_show_only--L {
-    display: none; }
-  #dance-information .dance_groups_show_only--XL {
-    display: block;
-    position: relative; }
-    #dance-information .dance_groups_show_only--XL .adavu_image {
-      z-index: 998;
-      width: 100%;
-      position: absolute;
-      bottom: -42.7rem;
-      left: 0; }
-    #dance-information .dance_groups_show_only--XL .adavu_text {
-      position: absolute;
-      top: 4rem;
-      left: 40rem;
-      z-index: 999;
-      width: 57%; }
-  #dance-information .alternative_content--dance__information {
-    position: relative; }
-    #dance-information .alternative_content--dance__information .alternative_content--dance__information-p {
-      position: absolute;
-      top: 5rem;
-      left: 25rem; }
-  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
-    bottom: -29rem;
-    padding: 0 45rem;
-    z-index: 999;
-    left: -8rem;
-    line-height: 1.6rem; }
-  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
-    bottom: -28rem;
-    padding: 0 24rem;
-    z-index: 999;
-    left: 35rem;
-    line-height: 1.6rem; }
-  #dance-information .dance_infobox--text .alt_content--private_infobox {
-    bottom: -29rem;
-    padding: 0 3rem;
-    z-index: 999;
-    left: 78rem;
-    line-height: 1.6rem; } }
-
-@media only screen and (min-width: 1200px) {
-  #contact-info .contact__info-wrapper .contact__info-item {
-    padding: 2rem; }
-  #events {
-    background-color: #dcae1d; }
-    #events .events .events-container {
-      margin: auto; }
-      #events .events .events-container .events_column h4:last-child {
-        padding-top: 5rem; }
-      #events .events .events-container .events_column .events_image {
-        width: 100%; } }
-
-@media only screen and (min-width: 1280px) {
-  #dance-information .dance_groups_show_only--XL .adavu_image {
-    bottom: -39rem; }
-  #dance-information .dance_groups_show_only--XL .adavu_text {
-    top: -8rem;
-    left: 51rem; }
-  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
-    bottom: -20rem;
-    padding: 0 57rem 0 44rem;
-    z-index: 999;
-    left: 2rem;
-    line-height: 2.5rem; }
-  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
-    bottom: -18rem;
-    line-height: 2.5rem;
-    left: 26rem;
-    padding: 0 30rem 0 48rem;
-    z-index: 999; }
-  #dance-information .dance_infobox--text .alt_content--private_infobox {
-    line-height: 2.5rem;
-    z-index: 999;
-    bottom: -18rem;
-    left: 97rem;
-    padding: 0 3rem; }
-  #events {
-    padding-top: 130rem; } }
-
-@media only screen and (min-width: 1440px) {
-  #dance-information .dance_groups_show_only--XL .adavu_image {
-    bottom: -68.5rem; }
-  #dance-information .dance_groups_show_only--XL .dance_information_header {
+#dance-information .dance_groups_show_only--L {
+  display: block;
+  text-align: center;
+  position: relative; }
+  #dance-information .dance_groups_show_only--L .adavu_text {
     position: absolute;
-    z-index: 999;
-    top: -2rem;
-    left: 40rem; }
-  #dance-information .dance_groups_show_only--XL .adavu_text {
-    width: 13rem;
-    height: 33rem;
-    top: 1.5rem;
-    left: 55rem; }
-  #dance-information .dance_groups_show_only--XL .intermediate_text {
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 29rem; }
+  #dance-information .dance_groups_show_only--L .intermediate_text {
     position: absolute;
-    z-index: 999;
-    top: 15rem;
-    left: 80.9rem; }
-  #dance-information .dance_groups_show_only--XL .private_text {
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 52rem; }
+  #dance-information .dance_groups_show_only--L .private_text {
     position: absolute;
-    z-index: 999;
-    top: 15rem;
-    left: 108rem; }
-  #dance-information .dance_groups_show_only--XL .adavu_groups_text {
-    position: absolute;
-    z-index: 999;
-    top: 24.5rem;
-    left: 49rem; }
-  #dance-information .dance_groups_show_only--XL .intermediate_groups_text {
-    position: absolute;
-    z-index: 999;
-    top: 24.5rem;
-    left: 79rem; }
-  #dance-information .dance_groups_show_only--XL .private_groups_text {
-    position: absolute;
-    z-index: 999;
-    top: 24.5rem;
-    left: 108rem; }
-  #dance-information .alternative_content--dance__information {
-    position: relative;
-    z-index: 999;
-    top: -1rem;
-    left: 11rem; } }
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 75rem; }
+
+#dance-information .dance_groups_show_only--XL {
+  display: none; }
+
+#dance-information .dance_infobox--text .alt_content--adavu_infobox {
+  bottom: 46rem;
+  padding: 0 14rem; }
+
+#dance-information .dance_infobox--text .alt_content--intermediate_infobox {
+  padding: 0 14rem;
+  bottom: 26rem; }
+
+#dance-information .dance_infobox--text .alt_content--private_infobox {
+  padding: 0 14rem;
+  bottom: 2rem; }
+
+#contact-info .contact__info-wrapper .contact__info-item {
+  display: inline-grid;
+  padding: 2rem; }
 
 #events {
   position: relative;
@@ -1603,33 +1364,6 @@ li.guideline-numbers::before {
   left: 6rem;
   top: 2rem; }
 
-@media only screen and (min-width: 1680px) {
-  #dance-information .dance_groups_show_only--XL .adavu_text {
-    top: -18rem;
-    left: 67rem; }
-  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
-    line-height: 2.3rem;
-    bottom: -17rem;
-    padding: 0 74rem 0 58rem; }
-  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
-    line-height: 2.3rem;
-    padding: 0 41rem 0 70rem;
-    letter-spacing: 1px;
-    bottom: -19rem;
-    left: 26rem; }
-  #dance-information .dance_infobox--text .alt_content--private_infobox {
-    line-height: 2.3rem;
-    padding: 0 5rem 0 23rem;
-    bottom: -19rem; }
-  #events {
-    padding: 27rem 14rem 8rem; }
-  #row container-fluid events-container {
-    padding-top: 20rem; } }
-
-@media only screen and (min-width: 1900px) {
-  #events {
-    padding: 11rem 14rem 8rem; } }
-
 /*** Extra Styles ***/
 .header img {
   width: 100%; }
@@ -1639,13 +1373,11 @@ li.guideline-numbers::before {
 
 h1 {
   font-weight: bold;
-  font-size: 28pt;
+  font-size: 20pt;
   color: #982649; }
 
 .text-p {
-  font-size: 16pt;
-  max-width: 540px;
-  margin-left: 200px; }
+  font-size: 1.6rem; }
 
 #about-sharanya {
   overflow: hidden; }
@@ -1666,51 +1398,70 @@ h1 {
   .text-p {
     margin-left: 0px; } }
 
-@media screen and (max-width: 991px) {
-  .figure-1-placement img {
-    margin-top: 0px !important; }
-  .info-box-holders {
-    position: initial !important;
-    left: 0 !important; } }
+/* @media screen and (max-width: 991px) {
+    .figure-1-placement img {
+        margin-top: 0px !important;
+    }
+
+    .info-box-holders {
+        position: initial !important;
+        left: 0 !important;
+    }
+    
+}
+
 
 @media screen and (max-width: 767px) {
-  .figure-1-placement img {
-    margin-top: 0px !important;
-    margin-left: 0px !important; }
-  .motive-section::after {
-    right: -74% !important; } }
+    .figure-1-placement img {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .motive-section::after {
+
+        right: -74% !important;
+    }
+}
 
 @media screen and (max-width: 540px) {
-  .motive-section::before {
-    content: url("master-assets/img/alternative/small_left_motive.png") !important;
-    left: -70px !important;
-    top: 60px !important; }
-  .motive-section::after {
-    content: url("master-assets/img/alternative/small_right_motive.png") !important;
-    top: -60px !important; }
-  h3,
-  h1 {
-    font-size: 16px !important; }
-  .text-p,
-  p {
-    font-size: 12px !important; } }
+
+    .motive-section::before {
+        content: url('master-assets/img/alternative/small_left_motive.png') !important;
+        left: -70px !important;
+        top: 60px !important;
+    }
+
+    .motive-section::after {
+        content: url('master-assets/img/alternative/small_right_motive.png') !important;
+        top: -60px !important;
+    }
+
+    h3,
+    h1 {
+        font-size: 16px !important;
+    }
+
+    .text-p,
+    p {
+        font-size: 12px !important;
+    }
+}
 
 .motive-section::before {
-  content: url("/master-assets/img/alternative/left-motive.png");
-  /* with class ModalCarrot ??*/
-  position: relative;
-  z-index: 100000;
-  left: -150px;
-  top: 160px; }
+    content: url('/master-assets/img/alternative/left-motive.png');
+    position: relative;
+    z-index: 100000;
+    left: -150px;
+    top: 160px;
+}
 
 .motive-section::after {
-  content: url("/master-assets/img/alternative/right-motive.png");
-  /* with class ModalCarrot ??*/
-  position: relative;
-  z-index: 100000;
-  top: -170px;
-  right: -90%; }
-
+    content: url('/master-assets/img/alternative/right-motive.png');
+    position: relative;
+    z-index: 100000;
+    top: -170px;
+    right: -90%;
+} */
 .figure-1-placement img {
   width: 80%;
   margin-top: 340px;
@@ -1868,7 +1619,10 @@ h1 {
     top: 0;
     width: 100%; }
     .dance-info-lady img {
-      margin-top: 0; } }
+      margin-top: 0; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 25%;
+    left: 80%; } }
 
 @media screen and (min-width: 992px) and (max-width: 1500px) {
   .dance-info-lady {
@@ -2055,12 +1809,12 @@ h1 {
 
 #biography h1,
 #groupsFees .page-heading h1 {
-  font-size: 36px;
+  font-size: 20pt;
   color: #9e2929;
   padding-top: 80px; }
 
 .line-group-add {
-  height: 2px;
+  height: 5px;
   background-color: #DCAE1D; }
 
 .section-container {

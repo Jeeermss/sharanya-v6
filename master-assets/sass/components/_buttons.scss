@@ -1,5 +1,4 @@
 @media only screen and (min-width: 320px) {
-
   .all_buttons {
     cursor: pointer;
     position: relative;
@@ -8,9 +7,12 @@
     color: $white;
     border: 1px solid $mossgreen;
     border-radius: 3px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: bolder;
     padding: .4rem 5rem;
     text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .all_buttons::before,
@@ -27,7 +29,6 @@
     color: $mossgreen;
     text-decoration: none;
     border: 2px solid $mossgreen;
-    font-weight: 500;
   }
 
   .enroll_button_color--mossgreen {
@@ -39,20 +40,33 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
-}
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px){
   #class-materials {
-
       .saturday__button {
         background-color: $mossgreen;
         color: $white;
         border-radius: 3px;
-        padding: 1.2rem 2.5rem;
+        padding: 1rem 6.5rem;
         display: block;
-        width: 20%;
+        width: 100%;
+        margin: 2rem -4rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+@media screen and (min-width: 1201px) and (max-width: 2100px){
+  #class-materials {
+      .saturday__button {
+        background-color: $mossgreen;
+        color: $white;
+        border-radius: 3px;
+        padding: 1rem 6.5rem;
+        display: block;
+        width: 120%;
         margin: 2rem auto;
+        font-size: 1.7rem;
       }
     }
   }
