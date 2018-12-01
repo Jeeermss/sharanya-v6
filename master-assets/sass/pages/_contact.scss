@@ -1,7 +1,23 @@
+#accordionExample.accordion {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+p.content-header.light.mb-1.mt-1 {
+    text-align: center;
+}
+
+.card-body {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 @media only screen and (min-width: 320px) {
   #accordionExample.accordion {
     .card {
-      padding: 1rem;
+      padding: 0.5rem;
 
       #collapseOne.collapse.show,
       #collapseTwo.collapse.show,
@@ -26,6 +42,30 @@
       }
     }
   }
+    
+    .all_buttons {
+        margin-right: -2rem;
+    }
+}
+
+@media screen and (min-width:447px) and (max-width: 1279px) {
+    #accordionExample.accordion {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (min-width:387px) and (max-width: 446px) {
+    #accordionExample.accordion {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width:327px) and (max-width: 386px) {
+    .all_buttons {
+        margin-right: 0;
+    }
 }
 
 @media only screen and (min-width: 1281px) {
