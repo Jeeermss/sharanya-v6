@@ -75,7 +75,7 @@ li.guideline-numbers::before {
     p {
       width: 100%;
     }
-    padding: 0 1rem 2rem 2rem;
+    padding: 0 1rem 2rem 7rem;
   }
 
   .header-main {
@@ -105,8 +105,8 @@ li.guideline-numbers::before {
 
 @media screen and (min-width:320px) and (max-width: 1199px){
   section {
-    border-left: 3rem solid $gold;
-    border-right: 3rem solid $gold;
+    border-left: 2rem solid $gold;
+    border-right: 2rem solid $gold;
   }
 
   .header-main {
@@ -117,11 +117,6 @@ li.guideline-numbers::before {
       padding-left: 0;
     }
   }
-  .content-main {
-      p {
-        width: 80%;
-      }
-  }
 }
 
 @media screen and (min-width:1200px) and (max-width: 2100px) {
@@ -129,4 +124,12 @@ li.guideline-numbers::before {
     border-left: 5rem solid $gold;
     border-right: 5rem solid $gold;
   }
+    
+    .content-main {
+        p {
+        width: 100%;
+            }
+        
+        padding: 0 1rem 2rem 12rem;
+    }
 }

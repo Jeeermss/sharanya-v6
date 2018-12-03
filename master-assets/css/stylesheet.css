@@ -52,7 +52,7 @@ li.guideline-numbers::before {
     border-left: 5px solid #dcae1d;
     border-right: 5px solid #dcae1d; }
   .content-main {
-    padding: 0 1rem 2rem 2rem; }
+    padding: 0 1rem 2rem 7rem; }
     .content-main p {
       width: 100%; }
   .header-main {
@@ -71,20 +71,22 @@ li.guideline-numbers::before {
 
 @media screen and (min-width: 320px) and (max-width: 1199px) {
   section {
-    border-left: 3rem solid #dcae1d;
-    border-right: 3rem solid #dcae1d; }
+    border-left: 2rem solid #dcae1d;
+    border-right: 2rem solid #dcae1d; }
   .header-main {
     width: 80%;
     margin-left: auto; }
     .header-main .header-text {
-      padding-left: 0; }
-  .content-main p {
-    width: 80%; } }
+      padding-left: 0; } }
 
 @media screen and (min-width: 1200px) and (max-width: 2100px) {
   section {
     border-left: 5rem solid #dcae1d;
-    border-right: 5rem solid #dcae1d; } }
+    border-right: 5rem solid #dcae1d; }
+  .content-main {
+    padding: 0 1rem 2rem 12rem; }
+    .content-main p {
+      width: 100%; } }
 
 *,
 *::before,
@@ -109,7 +111,7 @@ li.guideline-numbers::before {
 .bold {
   font-weight: 700; }
 
-@media only screen and (min-width: 320px) {
+@media screen and (min-width: 325px) {
   .header-text {
     font-size: 1.8rem; }
   .sub-header {
@@ -120,23 +122,29 @@ li.guideline-numbers::before {
     font-size: 1.4rem;
     padding: 1rem 1rem; }
   .alt_sub-header {
-    font-size: 1.3rem; }
+    font-size: 12pt; }
   .alt_content-header {
     font-size: 1.1rem; }
   .alt_content-p {
-    font-size: 1.4rem; }
+    font-size: 12pt; }
   .label_header-sub_content {
-    font-size: 1.4rem; } }
+    font-size: 1.5rem; }
+  h1 {
+    font-size: 18pt; } }
 
-@media only screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .alt_content-header {
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+  .alt_content-p {
+    font-size: 12pt; } }
 
-@media only screen and (min-width: 414px) {
+@media screen and (max-width: 767px) {
   .alt_content-header {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .container-fluid {
+    font-size: 12pt; } }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header-text {
     font-size: 1.7rem; }
   .sub-header {
@@ -146,40 +154,57 @@ li.guideline-numbers::before {
   .alt_content-header {
     font-size: 1.7rem; } }
 
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
   .header-text {
     font-size: 1.8rem; }
   .sub-header {
-    font-size: 1.6rem; }
+    font-size: 16pt; }
   .content-header {
-    font-size: 1.6rem; }
+    font-size: 1.8rem; }
   li {
-    font-size: 1.6rem;
-    padding: 1rem 1rem; } }
+    font-size: 2rem;
+    padding: 1rem 1rem; }
+  .alt_content-p {
+    font-size: 16pt; }
+  h1 {
+    font-size: 20pt;
+    font-weight: bolder; } }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .alt_content-header {
+    font-size: 2rem; }
+  .alt_content-p {
+    font-size: 1.8rem; } }
+
+@media screen and (min-width: 1200px) {
+  .header-text {
+    font-size: 3rem; }
+  .alt_content-p {
     font-size: 2rem; } }
 
-@media only screen and (min-width: 1200px) {
-  .header-text {
-    font-size: 3rem; } }
-
-@media only screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .sub-header {
-    font-size: 2rem; }
+    font-size: 16pt; }
   .content-header {
-    font-size: 1.6rem; }
+    font-size: 2rem; }
   .alt_sub-header {
     font-size: 2rem; }
   .alt_content-header {
-    font-size: 2.2rem; } }
+    font-size: 2.2rem; }
+  .alt_content-p {
+    font-size: 16pt; } }
 
-@media only screen and (min-width: 1920px) {
+@media screen and (min-width: 2100px) {
   .alt_content-header {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem; }
+  .alt_content-p {
+    font-size: 18pt; }
+  .sub-header {
+    font-size: 18pt; }
+  h1 {
+    font-size: 22pt; } }
 
-@media only screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {
   .all_buttons {
     cursor: pointer;
     position: relative;
@@ -188,12 +213,10 @@ li.guideline-numbers::before {
     color: #FFF;
     border: 1px solid #596f62;
     border-radius: 3px;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bolder;
-    padding: .4rem 5rem;
-    text-decoration: none;
-    margin-left: 20px;
-    margin-right: 20px; }
+    padding: 0.5rem 5rem;
+    text-decoration: none; }
   .all_buttons::before,
   .all_buttons::after,
   .all_buttons:active {
@@ -235,7 +258,7 @@ li.guideline-numbers::before {
     margin: 2rem auto;
     font-size: 1.7rem; } }
 
-@media only screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   #about-sharanya {
     position: relative; }
     #about-sharanya .decor-left .decor {
@@ -248,7 +271,9 @@ li.guideline-numbers::before {
   #events {
     position: relative; }
     #events .enroll_button {
-      cursor: pointer; }
+      cursor: pointer;
+      top: 5rem;
+      left: -2rem; }
       #events .enroll_button img {
         position: absolute;
         left: 50%;
@@ -918,14 +943,17 @@ li.guideline-numbers::before {
       display: inline-grid;
       text-align: left; }
       .footer__links ul .footer__links-items a {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         letter-spacing: 1px; }
     .footer__links ul .footer__links-item:first-child {
       margin-bottom: 1rem; } }
 
 @media only screen and (min-width: 992px) {
   .footer__links ul .footer__links-items {
-    padding: 0 2.4rem; } }
+    padding: 0 2.4rem; }
+  .footer__links ul a {
+    font-size: 1.6rem;
+    letter-spacing: 1px; } }
 
 @media only screen and (min-width: 1200px) {
   .footer__links ul .footer__links-items {
@@ -950,6 +978,9 @@ li.guideline-numbers::before {
 .navigation {
   z-index: 1000; }
 
+.navbar-nav .nav-link:hover {
+  color: #dcae1d !important; }
+
 @media only screen and (min-width: 320px) {
   .navigation {
     background-color: #982649; }
@@ -959,7 +990,7 @@ li.guideline-numbers::before {
         font-size: 1.5rem;
         color: #FFF; }
     .navigation .navcollapse {
-      padding-top: 1rem; }
+      padding-top: 0.5rem; }
       .navigation .navcollapse .navbar-nav .nav-item {
         background-color: #dcae1d;
         margin: 1px 0; }
@@ -972,7 +1003,7 @@ li.guideline-numbers::before {
           font-size: 1.3rem;
           line-height: 1.6rem;
           text-align: left; }
-        .navigation .navcollapse .navbar-nav .nav-item .dropdown-toggle::after {
+        .navigation .navcollapse .navbar-nav .nav-item .dropdown-toggle:after {
           color: #982649; }
         .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show {
           background-color: #dcae1d;
@@ -996,21 +1027,21 @@ li.guideline-numbers::before {
     margin: auto;
     text-align: justify; }
     .navigation .navcollapse .navbar-nav .dropdown-menu {
-      left: 1rem; }
+      left: 3rem; }
     .navigation .navcollapse .navbar-nav .nav-item {
       background-color: #982649; }
-      .navigation .navcollapse .navbar-nav .nav-item .dropdown-toggle::after {
+      .navigation .navcollapse .navbar-nav .nav-item .dropdown-toggle:after {
         color: #dcae1d; }
       .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show {
         background-color: #FFF;
         color: #020202;
         border: 1px solid #dcae1d;
         padding: 0;
-        margin: .5rem 0; }
+        margin: -1rem 0; }
         .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
           color: #020202;
           padding: .7rem 2.8rem; }
-        .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item:hover {
+        .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item:active {
           background-color: #dcae1d;
           color: #982649; } }
 
@@ -1038,23 +1069,11 @@ li.guideline-numbers::before {
   .navigation .navcollapse .navbar-nav .nav-item .nav-link {
     padding: 1.1rem 6rem .8rem; } }
 
-@media only screen and (min-width: 2100px) {
+@media screen and (max-width: 2100px) {
   .navigation .navcollapse .navbar-nav .nav-item .nav-link {
-    padding: 1.2rem 7rem; } }
+    padding: 1.2rem 2rem; } }
 
-.motive-section::before {
-  content: url("/master-assets/img/alternative/left-motive.png");
-  position: relative;
-  left: -110px;
-  top: 160px; }
-
-.motive-section::after {
-  content: url("/master-assets/img/alternative/right-motive.png");
-  position: relative;
-  top: -170px;
-  right: -80%; }
-
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   #biography .only_show_S {
     display: none; }
     #biography .only_show_S img {
@@ -1132,10 +1151,10 @@ p.content-header.light.mb-1.mt-1 {
   text-align: center; }
 
 .card-body {
-  padding-left: 5rem;
-  padding-right: 5rem;
   padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem; }
 
 @media only screen and (min-width: 320px) {
   #accordionExample.accordion .card {
@@ -1151,8 +1170,9 @@ p.content-header.light.mb-1.mt-1 {
       border: 1px solid #982649; }
       #accordionExample.accordion .card .card-header h5 button h1 {
         color: #982649; }
-  .all_buttons {
-    margin-right: -2rem; } }
+  /* .all_buttons {
+        margin-right: -4rem;
+    } */ }
 
 @media screen and (min-width: 447px) and (max-width: 1279px) {
   #accordionExample.accordion {
@@ -1163,10 +1183,6 @@ p.content-header.light.mb-1.mt-1 {
   #accordionExample.accordion {
     padding-left: 2rem;
     padding-right: 2rem; } }
-
-@media screen and (min-width: 327px) and (max-width: 386px) {
-  .all_buttons {
-    margin-right: 0; } }
 
 @media only screen and (min-width: 1281px) {
   #accordionExample.accordion .card {
@@ -1213,38 +1229,46 @@ p.content-header.light.mb-1.mt-1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
-    #personal-information .left-section .about-sharanya {
-      position: relative;
-      padding: 100px 100px 70px 100px; }
-      #personal-information .left-section .about-sharanya p {
-        font-size: 16pt; }
-      #personal-information .left-section .about-sharanya #top-left-motive {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 200px; }
-      #personal-information .left-section .about-sharanya #bottom-right-motive {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 200px;
-        transform: rotateZ(180deg); }
-    #personal-information .left-section .contact-info {
-      text-align: center;
-      padding-bottom: 0; }
-      #personal-information .left-section .contact-info > div.row div {
-        padding: 15px; }
-  #personal-information .right-section > div {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; }
-    #personal-information .right-section > div img {
-      width: 90%;
-      object-fit: contain; }
-      @media (min-width: 480px) and (max-width: 990px) {
-        #personal-information .right-section > div img {
-          width: 50%; } }
+  #personal-information .about-sharanya {
+    position: relative;
+    padding: 100px 100px 70px 100px; }
+    #personal-information .about-sharanya #top-left-motive {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200px; }
+      @media screen and (max-width: 375px) {
+        #personal-information .about-sharanya #top-left-motive {
+          width: 160px;
+          top: 3rem; } }
+    #personal-information .about-sharanya #bottom-right-motive {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 200px;
+      transform: rotateZ(180deg); }
+      @media screen and (max-width: 375px) {
+        #personal-information .about-sharanya #bottom-right-motive {
+          width: 160px;
+          left: 12rem; } }
+
+.contact-info {
+  text-align: center;
+  padding-bottom: 0; }
+  .contact-info > div.row div {
+    padding: 15px; }
+
+.right-section > div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .right-section > div img {
+    width: 70%;
+    object-fit: contain; }
+    @media (min-width: 480px) and (max-width: 990px) {
+      .right-section > div img {
+        width: 50%; } }
 
 #events {
   background-color: #dcae1d;
@@ -1268,65 +1292,8 @@ p.content-header.light.mb-1.mt-1 {
         width: 70%; }
       #events .events-container .events_column h4,
       #events .events-container .events_column p {
-        margin: 0;
-        padding-bottom: .5rem; }
-
-/* #events {
-    .events-container {
-        .events_column {
-            .events_leaf_image {
-                left: 70%;
-                width: 55%;
-            }
-        }
-    }
-} */
-#dance-information .show_only--S {
-  display: none; }
-
-#dance-information .alternative_content--dance__information .alternative_content--dance__information-p {
-  padding: 0.5rem 2rem 0 4.2rem; }
-
-#dance-information .dance_groups_show_only--S {
-  display: none; }
-
-#dance-information .dance_groups_show_only--L {
-  display: block;
-  text-align: center;
-  position: relative; }
-  #dance-information .dance_groups_show_only--L .adavu_text {
-    position: absolute;
-    z-index: 99;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 29rem; }
-  #dance-information .dance_groups_show_only--L .intermediate_text {
-    position: absolute;
-    z-index: 99;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 52rem; }
-  #dance-information .dance_groups_show_only--L .private_text {
-    position: absolute;
-    z-index: 99;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 75rem; }
-
-#dance-information .dance_groups_show_only--XL {
-  display: none; }
-
-#dance-information .dance_infobox--text .alt_content--adavu_infobox {
-  bottom: 46rem;
-  padding: 0 14rem; }
-
-#dance-information .dance_infobox--text .alt_content--intermediate_infobox {
-  padding: 0 14rem;
-  bottom: 26rem; }
-
-#dance-information .dance_infobox--text .alt_content--private_infobox {
-  padding: 0 14rem;
-  bottom: 2rem; }
+        padding-bottom: .5rem;
+        padding-left: 1rem; }
 
 #contact-info .contact__info-wrapper .contact__info-item {
   display: inline-grid;
@@ -1339,31 +1306,6 @@ p.content-header.light.mb-1.mt-1 {
 .events-container {
   padding-top: 125rem; }
 
-#about-sharanya .show_only_text--XL .phone_text_XL {
-  position: absolute;
-  z-index: 999;
-  top: 73rem;
-  left: 10rem; }
-
-#about-sharanya .show_only_text--XL .location_text_XL {
-  position: absolute;
-  z-index: 999;
-  top: 73rem;
-  left: 28rem; }
-
-#about-sharanya .show_only_text--XL .email_address_text_XL {
-  position: absolute;
-  z-index: 999;
-  top: 73rem;
-  left: 81rem; }
-
-#about-sharanya .show_only_text--XL .about_sharanya_text_XL {
-  top: 13rem; }
-
-#about-sharanya .alternative_content--about .alternative_content-p {
-  left: 6rem;
-  top: 2rem; }
-
 /*** Extra Styles ***/
 .header img {
   width: 100%; }
@@ -1373,7 +1315,6 @@ p.content-header.light.mb-1.mt-1 {
 
 h1 {
   font-weight: bold;
-  font-size: 20pt;
   color: #982649; }
 
 .text-p {
@@ -1384,84 +1325,17 @@ h1 {
 
 .info-box-main-heading h3 {
   font-weight: bold;
-  font-size: 28pt;
+  font-size: 22pt;
   color: #982649; }
-
-.info-box-main-heading p {
-  font-size: 16pt; }
 
 .dance-info-line {
   height: 5px;
-  background-color: #596F62; }
+  background-color: #596f62; }
 
 @media screen and (max-width: 1200px) {
   .text-p {
     margin-left: 0px; } }
 
-/* @media screen and (max-width: 991px) {
-    .figure-1-placement img {
-        margin-top: 0px !important;
-    }
-
-    .info-box-holders {
-        position: initial !important;
-        left: 0 !important;
-    }
-    
-}
-
-
-@media screen and (max-width: 767px) {
-    .figure-1-placement img {
-        margin-top: 0px !important;
-        margin-left: 0px !important;
-    }
-
-    .motive-section::after {
-
-        right: -74% !important;
-    }
-}
-
-@media screen and (max-width: 540px) {
-
-    .motive-section::before {
-        content: url('master-assets/img/alternative/small_left_motive.png') !important;
-        left: -70px !important;
-        top: 60px !important;
-    }
-
-    .motive-section::after {
-        content: url('master-assets/img/alternative/small_right_motive.png') !important;
-        top: -60px !important;
-    }
-
-    h3,
-    h1 {
-        font-size: 16px !important;
-    }
-
-    .text-p,
-    p {
-        font-size: 12px !important;
-    }
-}
-
-.motive-section::before {
-    content: url('/master-assets/img/alternative/left-motive.png');
-    position: relative;
-    z-index: 100000;
-    left: -150px;
-    top: 160px;
-}
-
-.motive-section::after {
-    content: url('/master-assets/img/alternative/right-motive.png');
-    position: relative;
-    z-index: 100000;
-    top: -170px;
-    right: -90%;
-} */
 .figure-1-placement img {
   width: 80%;
   margin-top: 340px;
@@ -1470,14 +1344,20 @@ h1 {
 .section-container {
   position: relative; }
 
+@media screen and (max-width: 1000px) {
+  #dance-info-group {
+    margin: 0;
+    padding: 0; } }
+
 .info-box-holders {
-  border: 1px solid gold;
+  border: 1px solid #dcae1d;
   border-radius: 10px;
-  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.2);
-  position: relative;
-  left: 22px;
-  z-index: -2;
-  text-align: center; }
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.2); }
+  @media screen and (min-width: 1000px) {
+    .info-box-holders {
+      position: relative;
+      left: 22px;
+      z-index: -2; } }
 
 #dance-information .info-box-holders {
   height: auto; }
@@ -1490,34 +1370,34 @@ h1 {
     min-height: initial !important; }
 
 .info-box .info-box-inner {
-  background-color: #9e2929;
+  background-color: #982649;
   padding: 20px;
-  border: 2px solid gold;
+  border: 2px solid #dcae1d;
+  border-radius: 10px;
   color: #fff;
   min-height: 314px;
   box-sizing: border-box;
-  height: 200px;
-  font-size: 14pt; }
+  height: auto;
+  font-size: 16pt; }
 
 .info-box .info-box-inner:before {
-  /* content: ""; */
-  border-top: 1px solid #9e2929;
+  border-top: 1px solid #982649;
   width: 100%;
   padding-bottom: 20px;
   display: block;
   position: relative; }
 
 .info-box-line {
-  border-top: 2px solid #9e2929;
+  border-top: 1px solid #982649;
   padding: 15px 0;
   text-align: center; }
 
 .info-box-line h5 {
-  font-size: 24px;
+  font-size: 18pt;
   color: #596f62; }
 
 .info-box-line p {
-  font-size: 24px;
+  font-size: 20px;
   color: #000000; }
 
 .image-holder {
@@ -1527,7 +1407,7 @@ h1 {
   max-width: 200%; }
 
 .container-fluid {
-  padding-bottom: 5rem; }
+  padding-bottom: 3rem; }
 
 .image-holder.dance-info-lady img {
   position: absolute;
@@ -1555,9 +1435,6 @@ h1 {
 
 .events-container {
   padding-top: 0px; }
-
-.dropdown-menu {
-  text-align: center !important; }
 
 .image-holder.left.decors {
   position: relative;
@@ -1621,185 +1498,44 @@ h1 {
     .dance-info-lady img {
       margin-top: 0; }
   #events .events-container .events_column .events_leaf_image {
-    width: 25%;
-    left: 80%; } }
+    width: 35%;
+    left: 80%;
+    top: 50%; } }
+  @media screen and (max-width: 991px) and (max-width: 400px) {
+    #events .events-container .events_column .events_leaf_image {
+      width: 40%;
+      top: 60%; } }
 
-@media screen and (min-width: 992px) and (max-width: 1500px) {
+@media screen and (min-width: 992px) and (max-width: 2100px) {
   .dance-info-lady {
     top: 136px; } }
 
-@media only screen and (min-width: 320px) {
-  #groupsFees .show_only_S {
-    display: block;
-    margin: auto;
-    text-align: center; }
-    #groupsFees .show_only_S img {
-      text-align: center;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      width: 100%; }
-  #groupsFees .show_only_L {
-    display: none; }
-  #groupsFees .show_only_XL {
-    display: none; } }
-
-@media only screen and (min-width: 768px) {
-  #groupsFees .show_only_S {
-    display: none; }
-  #groupsFees .show_only_L {
-    display: block;
-    margin: auto;
-    text-align: center; }
-    #groupsFees .show_only_L img {
-      text-align: center;
-      padding: 3rem 0;
-      width: 100%; }
-  #groupsFees .show_only_XL {
-    display: none; } }
-
-@media only screen and (min-width: 1024px) {
-  #groupsFees .show_only_S {
-    display: none; }
-  #groupsFees .show_only_L {
-    display: none; }
-  #groupsFees .show_only_XL {
-    display: block;
-    margin: auto;
-    text-align: center; }
-    #groupsFees .show_only_XL img {
-      margin: auto;
-      text-align: center;
-      padding: 3rem 0;
-      width: 100%; } }
-
-@media only screen and (min-width: 1200px) {
-  .info-box .info-box-inner {
-    min-height: 420px !important; }
-  .info-box-line h5 {
-    font-size: 22px !important; } }
-
-@media only screen and (min-width: 1440px) {
-  #groupsFees .show_only_XL .groups_fees_text--XL {
-    position: absolute;
-    width: 21rem;
-    padding-top: 10rem;
-    left: 23rem; }
-  #groupsFees .show_only_XL .groups_fees_border--XL {
-    padding-top: 15rem; }
-  #groupsFees .show_only_XL .adavu_picture--XL {
-    position: relative;
-    width: 10rem;
-    left: -5rem;
-    padding-top: 3rem; }
-  #groupsFees .show_only_XL .adavu_description_bg {
-    position: absolute;
-    width: 75rem;
-    left: 52.5rem;
-    padding-top: 18rem; }
-  #groupsFees .show_only_XL .adavu_text {
-    position: absolute;
-    width: auto;
-    left: 82rem; }
-  #groupsFees .show_only_XL .adavu_border {
-    position: relative;
-    width: auto;
-    top: -13rem;
-    left: 13rem; }
-  #groupsFees .show_only_XL .adavu_price {
-    width: auto;
-    position: absolute;
-    padding-top: 11rem;
-    left: 80.5rem; }
-  #groupsFees .show_only_XL .groups_fees_adavu_description_text {
-    position: relative;
-    width: auto;
-    top: -44rem;
-    left: 45rem; }
-  #groupsFees .show_only_XL .intermediate_groups_picture--XL {
-    position: relative;
-    width: 55rem;
-    left: -74.8rem; }
-  #groupsFees .show_only_XL .intermediate_bg_text--XL {
-    position: absolute;
-    width: 81rem;
-    height: 51.9rem;
-    left: 59rem; }
-  #groupsFees .show_only_XL .intermediate_text {
-    position: absolute;
-    width: auto;
-    left: 90rem;
-    padding-top: 11rem; }
-  #groupsFees .show_only_XL .intermediate_border {
-    position: absolute;
-    width: auto;
-    top: 160rem;
-    left: 80rem; }
-  #groupsFees .show_only_XL .intermediate_price {
-    position: absolute;
-    width: auto;
-    left: 92rem;
-    padding-top: 19.5rem; }
-  #groupsFees .show_only_XL .intermediate_description_text--XL {
-    position: absolute;
-    width: auto;
-    left: 74rem;
-    padding-top: 25rem; }
-  #groupsFees .show_only_XL .advance_picture--XL {
-    position: relative;
-    width: 25rem;
-    left: 48rem;
-    padding-top: 10rem; }
-  #groupsFees .show_only_XL .advance_description_bg {
-    position: absolute;
-    width: auto;
-    left: 20rem;
-    padding-top: 23rem; }
-  #groupsFees .show_only_XL .advance_border {
-    position: absolute;
-    width: auto;
-    left: 28rem;
-    padding-top: 15rem; }
-  #groupsFees .show_only_XL .advance_text {
-    position: absolute;
-    width: auto;
-    left: 45rem;
-    padding-top: 8rem; }
-  #groupsFees .show_only_XL .advance_price {
-    position: absolute;
-    width: auto;
-    left: 49rem;
-    padding-top: 17rem; }
-  #groupsFees .show_only_XL .advance_description_text--XL {
-    position: absolute;
-    width: auto;
-    left: 23rem;
-    padding-top: 27rem; }
-  #groupsFees .show_only_XL .monthly_schedule_text--XL {
-    position: absolute;
-    width: auto;
-    left: 23rem;
-    padding-top: 55rem; }
-  #groupsFees .show_only_XL .monthly_schedule_border--XL {
-    padding-top: 0rem; }
-  #groupsFees .show_only_XL .monthly_schedule_description_text--XL {
-    position: relative;
-    width: auto;
-    left: -14rem;
-    padding-top: 0rem; } }
-
-/*** Extra Styles ***/
 .schedule-info-bottom h5 {
   font-size: 24px;
-  color: #982649; }
+  color: #982649;
+  font-weight: bolder; }
+  @media screen and (max-width: 500px) {
+    .schedule-info-bottom h5 {
+      font-size: 18pt; } }
 
 .schedule-info-top2 h5,
 .schedule-info-top h5 {
-  color: #596F62;
-  font-size: 24px; }
+  color: #596f62;
+  font-size: 24px;
+  font-weight: bolder; }
+  @media screen and (max-width: 500px) {
+    .schedule-info-top2 h5,
+    .schedule-info-top h5 {
+      font-size: 18pt; } }
 
 .schedule-info-top2 p,
 .schedule-info-top p {
-  font-size: 24px; }
+  font-size: 24px;
+  color: #000000; }
+  @media screen and (max-width: 500px) {
+    .schedule-info-top2 p,
+    .schedule-info-top p {
+      font-size: 18pt; } }
 
 .info-box-holders-inner {
   margin-top: 7%; }
@@ -1809,13 +1545,17 @@ h1 {
 
 #biography h1,
 #groupsFees .page-heading h1 {
-  font-size: 20pt;
-  color: #9e2929;
+  font-size: 26pt;
+  color: #982649;
   padding-top: 80px; }
+  @media screen and (max-width: 500px) {
+    #biography h1,
+    #groupsFees .page-heading h1 {
+      font-size: 20pt; } }
 
 .line-group-add {
   height: 5px;
-  background-color: #DCAE1D; }
+  background-color: #dcae1d; }
 
 .section-container {
   position: relative; }
@@ -1825,45 +1565,49 @@ h1 {
   border-radius: 0px;
   box-shadow: none; }
 
-.info-box .info-box-inner {
-  background-color: #9e2929;
-  padding: 20px;
-  border: 2px solid gold;
-  color: #fff;
-  min-height: 314px;
-  box-sizing: border-box;
-  height: auto;
-  font-size: 14pt; }
-
 .info-box .info-box-inner2 {
-  background-color: #9e2929;
-  padding: 20px;
-  border: 2px solid gold;
-  color: #fff;
-  min-height: 200px;
+  background-color: #982649;
+  padding: 25px;
+  border: 2px solid #dcae1d;
+  border-radius: 10px;
+  color: #ffffff;
+  min-height: 190px;
   box-sizing: border-box;
   height: auto;
-  font-size: 14pt; }
+  font-size: 16pt;
+  font-weight: bolder; }
+  @media screen and (max-width: 500px) {
+    .info-box .info-box-inner2 {
+      font-size: 14pt; } }
 
 .info-box .info-box-inner:before {
   /* content: ""; */
-  border-top: 1px solid #9e2929;
+  border-top: 1px solid #982649;
   width: 100%;
   padding-bottom: 20px;
   display: block;
   position: relative; }
 
 .info-box-line {
-  border-top: 1px solid #9e2929;
+  border-top: 3px solid #982649;
   padding: 15px 0;
   text-align: center; }
 
 .info-box-line h5 {
-  font-size: 24px; }
+  font-size: 18pt;
+  font-weight: bolder; }
 
 .info-box-line p {
-  font-size: 24px;
-  color: #596f62; }
+  font-size: 20px;
+  color: #000000; }
+
+.info-box-inner-alt {
+  font-size: 16pt;
+  color: #ffffff;
+  font-weight: bolder; }
+  @media screen and (max-width: 500px) {
+    .info-box-inner-alt {
+      font-size: 14pt; } }
 
 .image-holder {
   position: relative; }
@@ -1884,10 +1628,10 @@ h1 {
   padding-top: 0px; }
 
 .schedule-info-top {
-  border-bottom: 1px solid gold; }
+  border-bottom: 3px solid #dcae1d; }
 
 .schedule-info-top2 {
-  border-bottom: 1px solid #596F62; }
+  border-bottom: 3px solid #596f62; }
 
 .image-block img {
   max-width: 100%; }
@@ -1900,7 +1644,7 @@ h1 {
   background-position: center;
   background-size: cover;
   background-position-x: -490px; }
-  @media (max-width: 768px) {
+  @media (max-width: 979px) {
     .intermediate-dancers {
       background-attachment: initial;
       background-position: center top; } }
@@ -1915,11 +1659,22 @@ h1 {
   position: absolute; }
 
 .gold-block {
-  background-color: gold; }
+  background-color: #dcae1d; }
 
 .gold-block .info-box {
   padding: 80px;
   text-align: center; }
+
+.private_lessons_lady {
+  height: 50rem;
+  margin-left: -5rem;
+  margin-bottom: 15rem; }
+  @media screen and (max-width: 500px) {
+    .private_lessons_lady {
+      margin-left: -8rem; } }
+
+.adavu_lady {
+  padding-right: 10rem; }
 
 @media screen and (max-width: 768px) {
   .intermediate-dancers {
@@ -1936,4 +1691,5 @@ h1 {
     left: 0;
     top: 0; }
   .info-box .info-box-inner {
-    height: auto; } }
+    height: auto;
+    font-size: 1.4rem; } }

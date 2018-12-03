@@ -1,18 +1,4 @@
-.motive-section::before {
-    content: url('/master-assets/img/alternative/left-motive.png');
-    position: relative;
-    left: -110px;
-    top: 160px;
-}
-
-.motive-section::after {
-    content: url('/master-assets/img/alternative/right-motive.png');
-    position: relative;
-    top: -170px;
-    right: -80%;
-} 
-
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     #biography {
       .only_show_S {
         display: none;
@@ -20,7 +6,6 @@
         img {
           width: 100%;
         }
-
       }
 
       .only_show_L {
@@ -71,8 +56,6 @@
         width: 100%;
       }
     }
-
-
   }
 }
 
@@ -116,6 +99,5 @@
                 padding-top: 1rem;
             }
         }    
-    
     }
 }

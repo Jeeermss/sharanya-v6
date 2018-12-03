@@ -8,10 +8,10 @@ p.content-header.light.mb-1.mt-1 {
 }
 
 .card-body {
-    padding-left: 5rem;
-    padding-right: 5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 @media only screen and (min-width: 320px) {
@@ -43,9 +43,9 @@ p.content-header.light.mb-1.mt-1 {
     }
   }
     
-    .all_buttons {
-        margin-right: -2rem;
-    }
+   /* .all_buttons {
+        margin-right: -4rem;
+    } */
 }
 
 @media screen and (min-width:447px) and (max-width: 1279px) {
@@ -63,9 +63,6 @@ p.content-header.light.mb-1.mt-1 {
 }
 
 @media screen and (min-width:327px) and (max-width: 386px) {
-    .all_buttons {
-        margin-right: 0;
-    }
 }
 
 @media only screen and (min-width: 1281px) {

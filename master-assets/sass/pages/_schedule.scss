@@ -1,271 +1,34 @@
-@media only screen and (min-width: 320px) {
-    #groupsFees {
-        .show_only_S {
-            display: block;
-            margin: auto;
-            text-align: center;
-
-            img {
-                text-align: center;
-                padding-top: 3rem;
-                padding-bottom: 3rem;
-                width: 100%;
-            }
-        }
-
-        .show_only_L {
-            display: none;
-        }
-
-        .show_only_XL {
-            display: none;
-        }
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    #groupsFees {
-        .show_only_S {
-            display: none;
-        }
-
-        .show_only_L {
-            display: block;
-            margin: auto;
-            text-align: center;
-
-            img {
-                text-align: center;
-                padding: 3rem 0;
-                width: 100%;
-            }
-        }
-
-        .show_only_XL {
-            display: none;
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    #groupsFees {
-        .show_only_S {
-            display: none;
-        }
-
-        .show_only_L {
-            display: none;
-        }
-
-        .show_only_XL {
-            display: block;
-            margin: auto;
-            text-align: center;
-
-            img {
-                margin: auto;
-                text-align: center;
-                padding: 3rem 0;
-                width: 100%;
-            }
-        }
-    }
 
 
-
-}
-
-@media only screen and (min-width: 1200px) {
-    .info-box .info-box-inner {
-
-
-        min-height: 420px !important;
-
-    }
-
-    .info-box-line h5 {
-        font-size: 22px !important;
-    }
-
-}
-
-@media only screen and (min-width: 1440px) {
-    #groupsFees {
-        .show_only_XL {
-            .groups_fees_text--XL {
-                position: absolute;
-                width: 21rem;
-                padding-top: 10rem;
-                left: 23rem;
-            }
-
-            .groups_fees_border--XL {
-                padding-top: 15rem;
-            }
-
-            .adavu_picture--XL {
-                position: relative;
-                width: 10rem;
-                left: -5rem;
-                padding-top: 3rem;
-            }
-
-            .adavu_description_bg {
-                position: absolute;
-                width: 75rem;
-                left: 52.5rem;
-                padding-top: 18rem;
-            }
-
-            .adavu_text {
-                position: absolute;
-                width: auto;
-                left: 82rem;
-            }
-
-            .adavu_border {
-                position: relative;
-                width: auto;
-                top: -13rem;
-                left: 13rem;
-            }
-
-            .adavu_price {
-                width: auto;
-                position: absolute;
-                padding-top: 11rem;
-                left: 80.5rem;
-            }
-
-            .groups_fees_adavu_description_text {
-                position: relative;
-                width: auto;
-                top: -44rem;
-                left: 45rem;
-            }
-
-            .intermediate_groups_picture--XL {
-                position: relative;
-                width: 55rem;
-                left: -74.8rem;
-            }
-
-            .intermediate_bg_text--XL {
-                position: absolute;
-                width: 81rem;
-                height: 51.9rem;
-                left: 59rem;
-            }
-
-            .intermediate_text {
-                position: absolute;
-                width: auto;
-                left: 90rem;
-                padding-top: 11rem;
-            }
-
-            .intermediate_border {
-                position: absolute;
-                width: auto;
-                top: 160rem;
-                left: 80rem;
-            }
-
-            .intermediate_price {
-                position: absolute;
-                width: auto;
-                left: 92rem;
-                padding-top: 19.5rem;
-            }
-
-            .intermediate_description_text--XL {
-                position: absolute;
-                width: auto;
-                left: 74rem;
-                padding-top: 25rem;
-            }
-
-            .advance_picture--XL {
-                position: relative;
-                width: 25rem;
-                left: 48rem;
-                padding-top: 10rem;
-            }
-
-            .advance_description_bg {
-                position: absolute;
-                width: auto;
-                left: 20rem;
-                padding-top: 23rem;
-            }
-
-            .advance_border {
-                position: absolute;
-                width: auto;
-                left: 28rem;
-                padding-top: 15rem;
-            }
-
-            .advance_text {
-                position: absolute;
-                width: auto;
-                left: 45rem;
-                padding-top: 8rem;
-            }
-
-            .advance_price {
-                position: absolute;
-                width: auto;
-                left: 49rem;
-                padding-top: 17rem;
-            }
-
-            .advance_description_text--XL {
-                position: absolute;
-                width: auto;
-                left: 23rem;
-                padding-top: 27rem;
-            }
-
-            .monthly_schedule_text--XL {
-                position: absolute;
-                width: auto;
-                left: 23rem;
-                padding-top: 55rem;
-            }
-
-            .monthly_schedule_border--XL {
-                padding-top: 0rem;
-            }
-
-            .monthly_schedule_description_text--XL {
-                position: relative;
-                width: auto;
-                left: -14rem;
-                padding-top: 0rem;
-            }
-        }
-    }
-}
-
-/*** Extra Styles ***/
 .schedule-info-bottom h5 {
     font-size: 24px;
-    color: #982649;
-
-
+    color: $maroon;
+    font-weight: bolder;
+    
+     @media screen and (max-width: 500px) {
+        font-size: 18pt;
+    }
 }
 
 .schedule-info-top2 h5,
 .schedule-info-top h5 {
-    color: #596F62;
+    color: $mossgreen;
     font-size: 24px;
+    font-weight: bolder;
+    
+    @media screen and (max-width: 500px) {
+    font-size: 18pt;
+    }
 }
 
 .schedule-info-top2 p,
 .schedule-info-top p {
-
     font-size: 24px;
+    color: #000000;
+    
+    @media screen and (max-width: 500px) {
+    font-size: 18pt;
+    }
 }
 
 .info-box-holders-inner {
@@ -273,20 +36,23 @@
 }
 
 #groupsFees {
-
     overflow: hidden;
 }
 
 #biography h1,
 #groupsFees .page-heading h1 {
-    font-size: 20pt;
-    color: #9e2929;
+    font-size: 26pt;
+    color: $maroon;
     padding-top: 80px;
+    
+    @media screen and (max-width: 500px) {
+    font-size: 20pt;
+    }
 }
 
 .line-group-add {
     height: 5px;
-    background-color: #DCAE1D;
+    background-color: $gold;
 }
 
 .section-container {
@@ -299,33 +65,26 @@
     box-shadow: none
 }
 
-.info-box .info-box-inner {
-    background-color: #9e2929;
-    padding: 20px;
-    border: 2px solid gold;
-    color: #fff;
-
-    min-height: 314px;
-    box-sizing: border-box;
-    height: auto;
-    font-size: 14pt;
-}
-
 .info-box .info-box-inner2 {
-    background-color: #9e2929;
-    padding: 20px;
-    border: 2px solid gold;
-    color: #fff;
-
-    min-height: 200px;
+    background-color: $maroon;
+    padding: 25px;
+    border: 2px solid $gold;
+    border-radius: 10px;
+    color: #ffffff;
+    min-height: 190px;
     box-sizing: border-box;
     height: auto;
-    font-size: 14pt;
+    font-size: 16pt;
+    font-weight: bolder;
+    
+    @media screen and (max-width: 500px) {
+        font-size: 14pt;
+    }
 }
 
 .info-box .info-box-inner:before {
     /* content: ""; */
-    border-top: 1px solid #9e2929;
+    border-top: 1px solid #982649;
     width: 100%;
     padding-bottom: 20px;
     display: block;
@@ -333,18 +92,29 @@
 }
 
 .info-box-line {
-    border-top: 1px solid #9e2929;
+    border-top: 3px solid $maroon;
     padding: 15px 0;
     text-align: center;
 }
 
 .info-box-line h5 {
-    font-size: 24px;
+    font-size: 18pt;
+    font-weight: bolder;
 }
 
 .info-box-line p {
-    font-size: 24px;
-    color: #596f62;
+    font-size: 20px;
+    color: #000000;
+}
+
+.info-box-inner-alt {
+    font-size: 16pt;
+    color: #ffffff;
+    font-weight: bolder;
+    
+        @media screen and (max-width: 500px) {
+        font-size: 14pt;
+    }
 }
 
 .image-holder {
@@ -366,17 +136,16 @@
     position: relative !important;
 }
 
-
 .events-container {
     padding-top: 0px
 }
 
 .schedule-info-top {
-    border-bottom: 1px solid gold;
+    border-bottom: 3px solid $gold;
 }
 
 .schedule-info-top2 {
-    border-bottom: 1px solid #596F62;
+    border-bottom: 3px solid $mossgreen;
 }
 
 .image-block img {
@@ -388,13 +157,12 @@
     padding-bottom: 35%;
     //background-size: 100%;
     background-repeat: no-repeat;
-
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-position-x: -490px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 979px) {
         background-attachment: initial;
         background-position: center top;
     }
@@ -411,12 +179,26 @@
 }
 
 .gold-block {
-    background-color: gold
+    background-color: $gold;
 }
 
 .gold-block .info-box {
     padding: 80px;
     text-align: center;
+}
+
+.private_lessons_lady {
+    height: 50rem;
+    margin-left: -5rem;
+    margin-bottom: 15rem;
+
+    @media screen and (max-width: 500px) {
+    margin-left: -8rem;
+    }
+}
+
+.adavu_lady {
+    padding-right: 10rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -445,7 +227,8 @@
     }
 
     .info-box .info-box-inner {
-        height: auto
+        height: auto;
+        font-size: 1.4rem;
     }
-
 }
+

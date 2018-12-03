@@ -29,9 +29,7 @@
 }
 
 //iPhone 5
-@media only screen and (min-width: 320px) {
-
-
+@media screen and (min-width: 325px) {
   .header-text {
     font-size: 1.8rem;
   }
@@ -50,37 +48,47 @@
   }
 
   .alt_sub-header {
-    font-size: 1.3rem;
+    font-size: 12pt;
   }
   .alt_content-header {
     font-size: 1.1rem;
   }
 
   .alt_content-p {
-    font-size: 1.4rem;
+    font-size: 12pt;
   }
 
   .label_header-sub_content {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
-
-
+    h1 {
+      font-size: 18pt;
+    }
 }
 
 //iPhone 6/7/8
-@media only screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .alt_content-header {
     font-size: 1.3rem;
   }
+    
+    .alt_content-p {
+        font-size: 12pt;
+    }
 }
 
-//iPone 6/7/8 Plus
-@media only screen and (min-width: 414px) {
+//iPhone 6/7/8 Plus
+@media screen and (max-width: 767px) {
   .alt_content-header {
     font-size: 1.5rem;
   }
+    
+    .container-fluid {
+      font-size: 12pt;
+    }
 }
-@media only screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) {
   .header-text {
     font-size: 1.7rem;
   }
@@ -99,57 +107,90 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
   .header-text {
     font-size: 1.8rem;
   }
 
   .sub-header {
-    font-size: 1.6rem;
+    font-size: 16pt;
   }
 
   .content-header {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
     
     li {
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 1rem 1rem;
   }
+    
+    .alt_content-p {
+      font-size: 16pt;
+    }
+    
+    h1 {
+      font-size: 20pt;
+      font-weight: bolder;
+    }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .alt_content-header {
     font-size: 2rem;
   }
+    
+  .alt_content-p {
+    font-size: 1.8rem;
+  }
 }
-@media only screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
   .header-text {
     font-size: 3rem;
   }
+    
+  .alt_content-p {
+    font-size: 2rem;
+  }
 }
 
-@media only screen and (min-width: 1440px) {
-
-
+@media screen and (min-width: 1440px) {
   .sub-header {
-    font-size: 2rem;
+    font-size: 16pt;
   }
 
   .content-header {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
+    
   .alt_sub-header {
     font-size: 2rem;
   }
+    
   .alt_content-header {
     font-size: 2.2rem;
   }
+    
+  .alt_content-p {
+    font-size: 16pt;
+  }
 }
 
-
-@media only screen and (min-width: 1920px) {
+@media screen and (min-width: 2100px) {
   .alt_content-header {
     font-size:2.5rem;
   }
+    
+  .alt_content-p {
+    font-size: 18pt;
+  }
+    
+  .sub-header {
+    font-size: 18pt;
+    }
+    
+    h1 {
+     font-size: 22pt;
+    }
 }
