@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {
 
   .footer {
     background-color: $maroon;
@@ -13,7 +13,7 @@
           a {
             color: $white;
             font-size: 1.3rem;
-            font-weight: 500;
+            font-weight: bold;
             letter-spacing: 1px;
           }
         }
@@ -48,7 +48,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .footer {
 
@@ -62,8 +62,9 @@
           text-align: left;
 
           a {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             letter-spacing: 1px;
+            font-weight: bold;
           }
         }
 
@@ -75,7 +76,8 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
+
+@media screen and (min-width: 991px) {
 
   .footer {
     &__links {
@@ -84,7 +86,7 @@
           padding: 0 2.4rem;
         }
            a {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             letter-spacing: 1px;
           }
       }
@@ -92,7 +94,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1202px) {
 
   .footer {
     &__links {
@@ -131,29 +133,18 @@
   }
 }
 
-@media only screen and (min-width: 1900px) {
+@media screen and (min-width: 2100px) {
   .footer {
     .social-links {
       ul {
         .social-links-items {
           a {
+              font-size: 1.6rem;
+              letter-spacing: 1px;
             img {
               width: 100%;
             }
           }
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 2100px) {
-
-  .footer {
-    &__links {
-      ul {
-        .footer__links-items {
-          padding: 0 4.9rem;
-
         }
       }
     }
