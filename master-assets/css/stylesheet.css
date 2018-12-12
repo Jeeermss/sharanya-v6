@@ -1142,6 +1142,14 @@ li.guideline-numbers::before {
     margin-bottom: 5rem;
     margin-top: 5rem; }
 
+.email-link {
+  color: #982649;
+  font-weight: 500; }
+
+.form-control:focus {
+  border-color: #596f62 !important;
+  box-shadow: 0 0 5px rgba(89, 111, 98, 0.3) !important; }
+
 #accordionExample.accordion {
   padding-top: 6rem;
   padding-bottom: 6rem; }
@@ -1168,10 +1176,7 @@ p.content-header.light.mb-1.mt-1 {
       background-color: #dcae1d;
       border: 1px solid #982649; }
       #accordionExample.accordion .card .card-header h5 button h1 {
-        color: #982649; }
-  /* .all_buttons {
-        margin-right: -4rem;
-    } */ }
+        color: #982649; } }
 
 @media screen and (min-width: 447px) and (max-width: 1279px) {
   #accordionExample.accordion {

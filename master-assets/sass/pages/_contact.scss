@@ -1,3 +1,13 @@
+.email-link {
+    color: $maroon;
+    font-weight: 500;
+}
+
+.form-control:focus {
+  border-color: $mossgreen !important;
+  box-shadow: 0 0 5px rgba(89, 111, 98, .3) !important;
+}
+
 #accordionExample.accordion {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -42,10 +52,6 @@ p.content-header.light.mb-1.mt-1 {
       }
     }
   }
-    
-   /* .all_buttons {
-        margin-right: -4rem;
-    } */
 }
 
 @media screen and (min-width:447px) and (max-width: 1279px) {
