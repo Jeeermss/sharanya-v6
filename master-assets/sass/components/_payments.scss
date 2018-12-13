@@ -1,0 +1,22 @@
+.links {
+    color: $maroon;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 26pt;
+    color: #982649;
+    padding-top: 80px;
+}
+
+.alt_content-p {
+    padding-bottom: 50px;
+    
+    @media screen and (max-width: 500px) {
+        margin-left: 0;
+    }
+}
+
+ul {
+    list-style-type: none;
+}

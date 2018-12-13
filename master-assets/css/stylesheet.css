@@ -572,6 +572,24 @@ li.guideline-numbers::before {
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
 
+.links {
+  color: #982649;
+  font-weight: 500; }
+
+h1 {
+  font-size: 26pt;
+  color: #982649;
+  padding-top: 80px; }
+
+.alt_content-p {
+  padding-bottom: 50px; }
+  @media screen and (max-width: 500px) {
+    .alt_content-p {
+      margin-left: 0; } }
+
+ul {
+  list-style-type: none; }
+
 @media only screen and (min-width: 320px) {
   #dance-information .dance__information .header-main {
     position: relative; }
@@ -1160,8 +1178,8 @@ p.content-header.light.mb-1.mt-1 {
 .card-body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem; }
+  padding-left: 5rem;
+  padding-right: 5rem; }
 
 @media only screen and (min-width: 320px) {
   #accordionExample.accordion .card {
