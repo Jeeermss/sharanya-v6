@@ -576,10 +576,10 @@ li.guideline-numbers::before {
   color: #982649;
   font-weight: 500; }
 
-h1 {
+h1.payment-header {
   font-size: 26pt;
   color: #982649;
-  padding-top: 80px; }
+  padding-top: 70px; }
 
 .alt_content-p {
   padding-bottom: 50px; }
