@@ -114,7 +114,8 @@ li.guideline-numbers::before {
   .header-text {
     font-size: 1.8rem; }
   .sub-header {
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    font-weight: bold; }
   .content-header {
     font-size: 1.3rem; }
   li {
@@ -147,7 +148,8 @@ li.guideline-numbers::before {
   .header-text {
     font-size: 1.7rem; }
   .sub-header {
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    font-weight: bold; }
   .content-header {
     font-size: 1.4rem; }
   .alt_content-header {
@@ -157,7 +159,8 @@ li.guideline-numbers::before {
   .header-text {
     font-size: 1.8rem; }
   .sub-header {
-    font-size: 16pt; }
+    font-size: 16pt;
+    font-weight: bold; }
   .content-header {
     font-size: 1.8rem; }
   li {
@@ -183,7 +186,8 @@ li.guideline-numbers::before {
 
 @media screen and (min-width: 1440px) {
   .sub-header {
-    font-size: 16pt; }
+    font-size: 16pt;
+    font-weight: bold; }
   .content-header {
     font-size: 2rem; }
   .alt_sub-header {
@@ -199,7 +203,8 @@ li.guideline-numbers::before {
   .alt_content-p {
     font-size: 18pt; }
   .sub-header {
-    font-size: 18pt; }
+    font-size: 18pt;
+    font-weight: bold; }
   h1 {
     font-size: 22pt; } }
 
@@ -241,10 +246,10 @@ li.guideline-numbers::before {
     background-color: #596f62;
     color: #FFF;
     border-radius: 3px;
-    padding: 1rem 6.5rem;
+    padding: 1rem 5.5rem;
     display: block;
     width: 100%;
-    margin: 2rem -4rem;
+    margin: 1rem 0rem;
     font-size: 1.4rem; } }
 
 @media screen and (min-width: 1201px) and (max-width: 2100px) {
@@ -582,7 +587,7 @@ h1.payment-header {
   padding-top: 70px; }
 
 .alt_content-p {
-  padding-bottom: 50px; }
+  padding-bottom: 20px; }
   @media screen and (max-width: 500px) {
     .alt_content-p {
       margin-left: 0; } }
@@ -987,7 +992,7 @@ ul {
 
 @media screen and (min-width: 2100px) {
   .footer .social-links ul .social-links-items a {
-    font-size: 1.6rem;
+    font-size: 3rem;
     letter-spacing: 1px; }
     .footer .social-links ul .social-links-items a img {
       width: 100%; } }
@@ -1146,18 +1151,17 @@ ul {
     padding-top: 1rem; } }
 
 #class-materials {
-  padding-top: 8rem; }
+  padding-top: 50px; }
   #class-materials .saturday__content-main {
     display: flex;
     flex-direction: column;
-    width: 305px;
+    width: 300px;
     text-align: center;
-    margin: auto;
-    padding: 3rem 0; }
+    margin: 0 auto;
+    padding: 1rem 0rem 0rem 1.5rem; }
     #class-materials .saturday__content-main a {
-      margin-bottom: 20px; }
+      margin-bottom: 25px; }
   #class-materials .content-main {
-    margin-bottom: 5rem;
     margin-top: 5rem; }
 
 .email-link {
@@ -1268,7 +1272,7 @@ p.content-header.light.mb-1.mt-1 {
 #personal-information {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 70px; }
+  padding-top: 50px; }
   #personal-information .left-section {
     flex: 1;
     display: flex;
@@ -1314,6 +1318,12 @@ p.content-header.light.mb-1.mt-1 {
     @media (min-width: 480px) and (max-width: 990px) {
       .right-section > div img {
         width: 50%; } }
+
+.nonlink-footer {
+  color: #FFF;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1px; }
 
 #events {
   background-color: #dcae1d;
@@ -1547,7 +1557,7 @@ h1 {
 
 @media screen and (min-width: 992px) and (max-width: 2100px) {
   .dance-info-lady {
-    top: 136px; } }
+    top: 85px; } }
 
 .alt_content-p2 {
   margin-left: 17%;
@@ -1579,9 +1589,6 @@ h1 {
     .schedule-info-top2 p,
     .schedule-info-top p {
       font-size: 18pt; } }
-
-.info-box-holders-inner {
-  margin-top: 7%; }
 
 #groupsFees {
   overflow: hidden; }

@@ -1,7 +1,7 @@
 #personal-information {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 70px;
+    padding-top: 50px;
 
     .left-section {
         flex: 1;
@@ -64,6 +64,13 @@
             }
         }
     }
+
+  .nonlink-footer {
+            color: $white;
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+          }
 
 #events {
     background-color: $gold;
@@ -387,6 +394,6 @@ h1 {
 
 @media screen and (min-width:992px) and (max-width: 2100px) {
     .dance-info-lady {
-        top: 136px;
+        top: 85px;
     }
 }

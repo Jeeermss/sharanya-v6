@@ -1,21 +1,20 @@
 #class-materials {
-    padding-top: 8rem; 
+    padding-top: 50px; 
     
     .saturday__content-main {
         display: flex;
         flex-direction: column;
-        width: 305px;
+        width: 300px;
         text-align: center;
-        margin: auto;
-        padding: 3rem 0;
+        margin: 0 auto;
+        padding: 1rem 0rem 0rem 1.5rem;
         
         a {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
     }
     
     .content-main {
-        margin-bottom: 5rem;
         margin-top: 5rem;
     }
 }
