@@ -17,10 +17,11 @@
     align-items: center;
 
     img {
-        object-fit: contain;
+        object-fit: cover;
         width: 25%;
         padding: 10px;
         padding-top: 3rem;
+        max-height: 210px;
     }
 }
 

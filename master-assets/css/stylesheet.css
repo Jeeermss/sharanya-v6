@@ -1230,10 +1230,11 @@ p.content-header.light.mb-1.mt-1 {
   flex-wrap: wrap;
   align-items: center; }
   #gallery .gallery-grid img {
-    object-fit: contain;
+    object-fit: cover;
     width: 25%;
     padding: 10px;
-    padding-top: 3rem; }
+    padding-top: 3rem;
+    max-height: 210px; }
 
 .iframe-container {
   position: relative;
@@ -1687,7 +1688,7 @@ h1 {
   max-width: 100%; }
 
 .intermediate-dancers {
-  background-image: url(/master-assets/img/alternative/intermediate_groups_picture_XL.jpg);
+  background: url(/sharanya/static/img/alternative/intermediate_groups_picture_XL.jpg);
   padding-bottom: 35%;
   background-repeat: no-repeat;
   background-attachment: fixed;
