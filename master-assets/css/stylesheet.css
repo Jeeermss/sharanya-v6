@@ -1093,7 +1093,8 @@ ul {
 
 @media screen and (max-width: 2100px) {
   .navigation .navcollapse .navbar-nav .nav-item .nav-link {
-    padding: 1.2rem 2rem; } }
+    padding: 1.2rem 2rem;
+    cursor: pointer; } }
 
 @media screen and (max-width: 768px) {
   #biography .only_show_S {
