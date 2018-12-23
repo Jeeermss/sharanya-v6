@@ -221,8 +221,7 @@ th {
     border-width: 2px;
     border-color: $maroon;
     border-radius: 3px;
-    position: relative;
-    top: 57px;
+    position: absolute;
 }
 
 .last_month_button:hover, .next_month_button:hover {
@@ -233,12 +232,20 @@ th {
   }
 
 .last_month_button {
-    left: 120px;
+    left: 160px;
+    
+    @media screen and (max-width: 1024px) {
+        left: 100px;
+    }
 }
 
-/* .next_month_button {
-   left: 860px; 
-} */
+.next_month_button {
+   right: 160px; 
+    
+    @media screen and (max-width: 1024px) {
+        right: 100px;
+    }
+}
 
 thead.daysofweek {
     font-size: 14pt;
