@@ -200,7 +200,110 @@
     padding-right: 10rem;
 }
 
+th {
+    text-align: center;
+    font-size: 18pt;
+    color: $maroon;
+    font-weight: 500;
+}
+
+.table thead th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.last_month_button, .next_month_button {
+    background-color: $gold;
+    font-size: 12pt;
+    font-weight: 500;
+    width: 160px;
+    height: 35px;
+    border-width: 2px;
+    border-color: $maroon;
+    border-radius: 3px;
+    position: relative;
+    top: 57px;
+}
+
+.last_month_button:hover, .next_month_button:hover {
+    background-color: transparent;
+    color: $mossgreen;
+    text-decoration: none;
+    border: 2px solid $mossgreen;
+  }
+
+.last_month_button {
+    left: 120px;
+}
+
+/* .next_month_button {
+   left: 860px; 
+} */
+
+thead.daysofweek {
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 500;
+    background-color: $maroon;
+    color: white;
+}
+
+tr.row1_days, tr.row2_days, tr.row3_days, tr.row4_days, tr.row5_days {
+    text-align: right;
+    font-size: 14pt;
+    font-weight: 600;
+    height: 110px;
+}
+
+table,table.table-bordered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 14%;
+}
+
+section#calendar {
+    padding-bottom: 70px;
+}
+.show-mobile, .mobile-only-flex {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
+    tr.row1_days, tr.row2_days, tr.row3_days, tr.row4_days, tr.row5_days {
+        text-align: left;
+        height: auto;
+    }
+    
+    .table-bordered td, .table-bordered th {
+        border: none;
+        text-align: center;
+    }
+    
+    .mobile-only-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .show-desktop {
+        display: none;
+    }
+    
+    .show-mobile {
+        display: contents;
+    }
+    
+    table,table.table-bordered {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .table thead th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
 
     .intermediate-dancers {
         background-size: 100%

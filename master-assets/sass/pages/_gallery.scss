@@ -21,20 +21,16 @@
         width: 25%;
         padding: 10px;
         padding-top: 3rem;
-        max-height: 210px;
+        max-height: 250px;
     }
 }
 
 .iframe-container {
     position: relative;
-    width: 54%;
-    padding-bottom: 30%; 
-    height: 0;
-    
-    @media (min-width: 325px) and (max-width: 900px) {
-        width: 90%;
-        padding-bottom: 50%;
-    }
+    width: 60%;
+    padding-bottom: 40%; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .iframe-container iframe{
