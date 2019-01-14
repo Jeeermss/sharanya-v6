@@ -247,6 +247,10 @@ th {
     }
 }
 
+button.previous_month, button.next_month {
+    color: $gold;
+}
+
 thead.daysofweek {
     font-size: 14pt;
     text-align: center;
